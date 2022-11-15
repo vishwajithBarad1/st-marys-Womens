@@ -1,0 +1,71 @@
+.background-container{
+    background-image:url("https://wallpaperaccess.com/full/2314983.jpg") ;
+    width: 100vw;
+    height: 100vw;
+}
+.shadow{
+    margin: auto;
+    border: 5px solid rgba(0, 0, 0,0.2);
+    width:200px;
+    margin-bottom: 20px; 
+    border-radius:100%;
+}
+.image-style {
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius:100%;
+}
+.centerDev1 {
+    text-align: center;
+}
+.centerDev2 {
+    margin: auto;
+    width: 40%;
+    border: 5px solid rgb(172, 183, 254);
+    padding: 20px;
+    border-radius: 5px;
+  }
+.heading {
+    font-size: 25px;
+    color:rgba(0, 0, 0, 0.722);
+}
+.boxstyle {
+    width: 39vw;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(210, 230, 255);
+}
+.button-style {
+    background-color: rgb(0, 70, 128);
+    height: 40px;
+    width: 40vw;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.checkBox-style {
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+}
+.cancel-button-style
+{
+   background-color: rgb(241, 81, 81);
+    height: 30px;
+    width: 70px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-top:10px;
+}
+.para-style
+{
+    width: 40%;
+}
+.span-style
+{
+    color:rgb(91, 91, 255);
+    text-decoration:underline;
+}
