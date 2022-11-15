@@ -1,0 +1,61 @@
+.backGround{
+    background-image: url("https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg?w=2000");
+    width: 100vw;
+    height: 100vw;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 5%;
+}
+
+.center{
+    text-align: center;
+}
+
+.shadow{
+    margin: auto;
+    border: 8px solid rgba(0, 0, 0,0.2);
+    width:180px;
+    margin-bottom: 20px; 
+    border-radius:100%;
+    margin-top: 20px;
+}
+
+.credBox{
+    margin: auto;
+    border: 10px solid rgb(252, 176, 55);
+    border-radius: 7px;
+    width: 40%;
+    padding: 20px;
+}
+
+.box{
+    width: 100%;
+    height: 40px;
+    font-size:larger;
+}
+
+.button{
+    background-color: rgb(255, 128, 0);
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 100%;
+    height: 40px;
+    font-size: larger;
+    
+}
+.font{
+    color: black;
+}
+.checkBox-style {
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+}
+.para-style
+{
+    width: 40%;
+}
