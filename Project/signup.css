@@ -1,1 +1,30 @@
-
+.box{
+    width: 800px;
+    height: 40px;
+    font-size:larger;
+    background-color: rgb(255, 224, 157);
+    border-radius: 10px;
+    padding: 10px;
+}
+.center{
+    width: 50%;
+    margin:auto;
+}
+.background{
+    background-image: url("https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg?w=2000");
+    width: 100vw;
+    height: 100vw;
+    margin: auto;
+}
+.heading{
+    padding-top: 10%;
+    text-align: center;
+    color: hsl(30, 99%, 45%);
+}
+.register{
+    margin-left: 80%;
+    width: 160px;
+    height: 60px;
+    background-color:orange;
+    border-radius: 20px;
+}
