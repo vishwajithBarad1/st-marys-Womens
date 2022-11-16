@@ -1,0 +1,33 @@
+.background{
+    background-image: url("https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg");
+    width:100vw;
+    height:100vw;
+    background-size: 100%;
+   }
+.image{
+    width:200px;
+    height:200px;
+    margin-top:50px;
+    border-radius:100%;
+}
+.center{
+    text-align :center;
+}
+.shadow{
+    border-radius:100%;
+    border: 8px solid rgba(0,0,0,0.759);
+    width:150px;
+    margin: auto;
+    margin-top: 30px;
+}
+.outerbox{
+    margin: auto;
+    width:40%;
+    border:5px color solid rgba(0,0,0);
+    padding:40px;
+}
+.box{
+    width:80%;
+    height:50px;
+    font-size:30px;
+}
