@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="Home.css">
-    <title>HOME</title>
+<head>   
 </head>
-<body>   
-    <div class="backGround">
-        <h1>this is a Home Page</h1>
-    </div>
+<title>satwiki</title>
+<style>
+    body{
+        background-image:url("hd.jpg");
+        background-size:cover;
+    }
+    h1{
+        color: azure;
+    }
+    form{
+        width:45%;
+        background-color:rgb(112, 67, 126);
+        opacity:0.5;
+    }
+    input[type="text"],[type="password"],[type="number"],[type="date"],[type="register"]{
+        width:50%;
+        height="200px"
+        font-size:45px;
+        padding: 15px 20px;
+        margin: 10px;
+        outline: 10px;
+        textline:center;
+        }
+</style>
+<body> 
+<center>
+<h1>Create your account</h1><br><br><br><br><br><br><br><br>
+<form method="post">
+    <input type="text"placeholder="firstname"/><br>
+    <input type="text"placeholder="Lastname"/><br>
+    <input type="password"placeholder="Password"/><br>
+    <input type="number"placeholder="Mobile"/><br>
+    <input type="date"><br>
+    <input type="number"placeholder="age"><br>
+    <input type="submit" value="register"><br>
+
+    </form>
+</center>
 </body>
 </html>
