@@ -1,61 +1,48 @@
-.backGround{
-    background-image: url("https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg?w=2000");
-    width: 100vw;
-    height: 100vw;
+.background{
+background-image:url("https://www.bing.com/images/search?view=detailV2&ccid=jkqna29s&id=B817B5D1761B5BD86783FD28328A99E38783365F&thid=OIP.jkqna29saU5fHynsVF1BRwHaH8&mediaurl=https%3a%2f%2fi5.walmartimages.com%2fasr%2f757c7281-9d37-404f-90a8-ef4d0b6bdba8_2.b14c7a8145570b622a78686ec9acd9bc.jpeg%3fodnBg%3dffffff&exph=3858&expw=3598&q=Modern+Color+Background&simid=607987724033085547&FORM=IRPRST&ck=DC195CE6EEE04F5FDBB49C5C98C52431&selectedIndex=21");	
+weight:100vw;
+height:100vw;
 }
-
 .image{
+
     height: 200px;
-    width: 200px;
-    border-radius: 100%;
-    margin-top: 5%;
+    width:200px;
+    border-radius:50%;
+    margin-top:5%;
 }
-
 .center{
-    text-align: center;
-}
-
-.shadow{
-    margin: auto;
-    border: 8px solid rgba(0, 0, 0,0.2);
-    width:180px;
-    margin-bottom: 20px; 
-    border-radius:100%;
-    margin-top: 20px;
-}
-
-.credBox{
-    margin: auto;
-    border: 10px solid rgb(252, 176, 55);
-    border-radius: 7px;
-    width: 40%;
-    padding: 20px;
-}
-
-.box{
-    width: 100%;
-    height: 40px;
-    font-size:larger;
-}
-
-.button{
-    background-color: rgb(255, 128, 0);
-    margin-top: 10px;
-    border-radius: 15px;
-    width: 100%;
-    height: 40px;
-    font-size: larger;
+    text-align:center;
     
 }
+.shadow{
+    margin:auto;
+    width:180px;
+    margin-bottom:20px;
+    margin-top:20px;
+    border-radius:100%;
+    border:8px solid rgba(0,0,0,0.2);
+}
+.credbox{
+    margin:auto;
+    border:8px solid #171729bc;
+    border-radius:7px;
+    width:40%;
+    padding:20px;
+}
+.box{
+    width:100%;
+    height:40px;
+    font-size:larger;
+}
+.button{
+    background-color:rgba(239, 239, 243, 0.949);
+    margin-left:30%;
+    margin-top:40px;
+    border-radius:5px;
+    width:100px;
+    height:50px;
+    font-size:larger;
+}
 .font{
-    color: black;
-}
-.checkBox-style {
-    height: 15px;
-    width: 15px;
-    margin: 10px;
-}
-.para-style
-{
-    width: 40%;
+	color:black;
 }
