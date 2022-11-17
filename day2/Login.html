@@ -1,29 +1,49 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="Login.css">
-    <title>WEB LOGIN</title>
-</head>
-<body>   
-    <div class="backGround">
-        <div class="center">
-            <img class="image" src="http://www.clker.com/cliparts/O/N/h/C/W/z/teamstijl-person-icon-orange.svg" alt="person image">
-            <p class="shadow"></p>
-        </div>
-        <div class="credBox">
-            <h1 id="user">User Name</h1>
-            <input class="box" type="text" placeholder="enter Name (or) email">
-            <h1 for="user">Password</h1>
-            <input class="box" type="password" placeholder="enter password">
-        </div>
-        <br>
-        <div class="credBox">
-            <button  class="button"><a href="Home.html" class="font"><b>Sign in</b></a></b></button>
-            <br>
-            <input type="checkbox" id="checkBox" class="checkBox-style" />
-            <label for="checkBox">Remember me</label>
-            <p class="para-style">Forgot <span class="span-style">Password?</span> </p>
-        </div>
-    </div>
-</body>
-</html>
+backGround{
+    
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg")
+    width= 100vw;
+    height: 100vw;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 15%;
+
+}
+.center{
+    text-align: center;
+
+}
+.shadow{
+    margin: auto;
+    border: 8px solid rgba(117,113, 112,0.564)
+    width= 180px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    margin-top: 20px;
+
+}
+.credBox{
+    margin: auto;
+    border: 10px solid rgb(245,164,14);
+    border-radius: 7px;
+    width: 40%;
+    padding:20px;
+
+}
+.box{
+    width: 100%;
+    height:10px;
+    font-size: larger;
+
+}
+.button{
+    background-color: rgba(245,164, 14,);
+    margin-left: 35%;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    font-size:larger;
+}
